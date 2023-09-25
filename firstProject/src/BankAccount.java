@@ -76,7 +76,8 @@ public class BankAccount {
         BankAccount b1 = new BankAccount("18727715091");
         System.out.println();
         b1.addLeftAmount(200);
-        System.out.println(b1.getLeftAmount());;
+        System.out.println(b1.getLeftAmount());
+
     }
 
 }

@@ -6,6 +6,10 @@ import org.junit.Test;
  *
  *
  */
+
+class Person1{
+    String name = "Tom";
+}
 public class StringTest {
  /*
     String类：字符串，必须使用“”引起来使用
@@ -24,5 +28,25 @@ public class StringTest {
 
         System.out.println(s1);
         System.out.println(s2);
+
+        s1 += " xiangchen";
+        System.out.println(s1);
+
+    }
+
+    @Test
+    public void test2(){
+        String s1 = "abc";
+        String s2 = "abc";
+
+        System.out.println(s1 == s2);
+
+        String s3 = new String("bcd");
+        String s4 = new String("bcd");
+        System.out.println(s3 == s4);
+
+        Person1 p1 = new Person1();
+        String s5 = "Tom";
+        System.out.println(s5 == p1.name);
     }
 }

@@ -1,4 +1,4 @@
-package com.atguigu.java2;
+package src.com.atguigu.java2;
 
 import org.junit.jupiter.api.Test;
 

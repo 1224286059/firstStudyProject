@@ -123,8 +123,8 @@ public class CollectionTest {
 
         TreeSet set = new TreeSet(comparator);
         set.add(new User("xiangchen",12));
-        set.add(new User("yundanqingfeng",12));
-        set.add(new User("wanganshi",12));
+        set.add(new User("yundanqingfeng",13));
+        set.add(new User("wanganshi",14));
         set.add(new User("lihua",12));
         set.add(new User("lihua",6));
 

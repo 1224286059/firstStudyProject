@@ -82,6 +82,8 @@ public class CollectionTest {
         （1）不能添加不同类的对象
         （2）两种排序方法：自然排序(实现Comparable接口)和定制排序
         （3）自然排序中，比较两个对象是否相同的标准为:compareTo()返回0，不再是equals().
+        （4）定制排序中，比较两个对象是否相同的标准为:compareTo()返回0，不再是equals().若new TreeSet()中不放置comparator，则使用加入的元素的
+            类中的比较方法
 
 
      */
@@ -121,6 +123,7 @@ public class CollectionTest {
             }
         };
 
+        //如果（）中不放置comparator，则按照User中的CompareTo()方法排列
         TreeSet set = new TreeSet(comparator);
         set.add(new User("xiangchen",12));
         set.add(new User("yundanqingfeng",13));

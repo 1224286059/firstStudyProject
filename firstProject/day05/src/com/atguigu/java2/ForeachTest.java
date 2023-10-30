@@ -1,4 +1,4 @@
-package src.com.atguigu.java2;
+package com.atguigu.java2;
 
 import org.junit.jupiter.api.Test;
 
@@ -16,7 +16,7 @@ public class ForeachTest {
         Collection coll = new ArrayList();
         coll.add(123);
         coll.add(456);
-        coll.add(new Person("Xia",12));
+        coll.add(new src.com.atguigu.java2.Person("Xia",12));
         coll.add(new String("Tom"));
         coll.add(false);
 
